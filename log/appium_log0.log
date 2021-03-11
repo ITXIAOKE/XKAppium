@@ -1,0 +1,300 @@
+2018-04-02 04:32:52:824 - info: [Appium] Welcome to Appium v1.7.2
+2018-04-02 04:32:52:825 - info: [Appium] Non-default server args:
+2018-04-02 04:32:52:826 - info: [Appium]   port: 4700
+2018-04-02 04:32:52:826 - info: [Appium]   bootstrapPort: 4907
+2018-04-02 04:32:52:826 - info: [Appium]   sessionOverride: true
+2018-04-02 04:32:52:827 - info: [Appium]   log: E:/pycharmProject/appium/appiumProject/log/appium_log0.log
+2018-04-02 04:32:52:827 - info: [Appium]   udid: 127.0.0.1:62001
+2018-04-02 04:32:52:827 - info: [Appium]   noReset: true
+2018-04-02 04:32:52:828 - warn: [Appium] Deprecated server args:
+2018-04-02 04:32:52:828 - warn: [Appium]   -U,--udid => --default-capabilities '{"udid":"127.0.0.1:62001"}'
+2018-04-02 04:32:52:829 - warn: [Appium]   --no-reset => --default-capabilities '{"noReset":true}'
+2018-04-02 04:32:52:829 - info: [Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+2018-04-02 04:32:52:829 - info: [Appium]   udid: 127.0.0.1:62001
+2018-04-02 04:32:52:829 - info: [Appium]   noReset: true
+2018-04-02 04:32:52:850 - info: [Appium] Appium REST http interface listener started on 0.0.0.0:4700
+2018-04-02 04:32:53:297 - info: [HTTP] --> POST /wd/hub/session
+2018-04-02 04:32:53:297 - info: [HTTP] {"desiredCapabilities":{"noReset":"false","deviceName":"127.0.0.1:62001","app":"E:\\pycharmProject\\appium\\appiumProject\\app\\mukewang.apk","platformName":"Android"},"requiredCapabilities":{}}
+2018-04-02 04:32:53:300 - info: [debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"noReset":"false","deviceName":"127.0.0.1:62001","app":"E:\\pycharmProject\\appium\\appiumProject\\app\\mukewang.apk","platformName":"Android"},{},null]
+2018-04-02 04:32:53:301 - info: [debug] [BaseDriver] Event 'newSessionRequested' logged at 1522643573301 (12:32:53 GMT+0800 (中国标准时间))
+2018-04-02 04:32:53:303 - info: [Appium] Creating new AndroidDriver (v1.40.1) session
+2018-04-02 04:32:53:303 - info: [Appium] Capabilities:
+2018-04-02 04:32:53:303 - info: [Appium]   noReset: false
+2018-04-02 04:32:53:303 - info: [Appium]   deviceName: 127.0.0.1:62001
+2018-04-02 04:32:53:303 - info: [Appium]   app: E:\pycharmProject\appium\appiumProject\app\mukewang.apk
+2018-04-02 04:32:53:303 - info: [Appium]   platformName: Android
+2018-04-02 04:32:53:303 - info: [Appium]   udid: 127.0.0.1:62001
+2018-04-02 04:32:53:308 - info: [debug] [BaseDriver] W3C capabilities [] and MJSONWP desired capabilities  were provided
+2018-04-02 04:32:53:308 - warn: [BaseDriver] Falling back to MJSONWP desired capabilities
+2018-04-02 04:32:53:309 - warn: [BaseDriver] Capability 'noReset' changed from string to boolean. This may cause unexpected behavior
+2018-04-02 04:32:53:313 - info: [BaseDriver] Session created with session id: e88c1428-d4ac-4f36-8dcc-39ac63cf0e04
+2018-04-02 04:32:53:313 - info: [debug] [AndroidDriver] Getting Java version
+2018-04-02 04:32:53:458 - info: [AndroidDriver] Java version is: 1.8.0_152
+2018-04-02 04:32:53:460 - info: [ADB] Checking whether adb is present
+2018-04-02 04:32:53:468 - info: [ADB] Found 11 'build-tools' folders under 'E:\androidstudioworkspace\ASsdk' (newest first):
+2018-04-02 04:32:53:468 - info: [ADB]     E:/androidstudioworkspace/ASsdk/build-tools/27.0.1
+2018-04-02 04:32:53:468 - info: [ADB]     E:/androidstudioworkspace/ASsdk/build-tools/27.0.0
+2018-04-02 04:32:53:468 - info: [ADB]     E:/androidstudioworkspace/ASsdk/build-tools/26.0.2
+2018-04-02 04:32:53:468 - info: [ADB]     E:/androidstudioworkspace/ASsdk/build-tools/25.0.0
+2018-04-02 04:32:53:469 - info: [ADB]     E:/androidstudioworkspace/ASsdk/build-tools/24.0.3
+2018-04-02 04:32:53:469 - info: [ADB]     E:/androidstudioworkspace/ASsdk/build-tools/24.0.2
+2018-04-02 04:32:53:469 - info: [ADB]     E:/androidstudioworkspace/ASsdk/build-tools/24.0.1
+2018-04-02 04:32:53:469 - info: [ADB]     E:/androidstudioworkspace/ASsdk/build-tools/24.0.0
+2018-04-02 04:32:53:469 - info: [ADB]     E:/androidstudioworkspace/ASsdk/build-tools/23.0.3
+2018-04-02 04:32:53:469 - info: [ADB]     E:/androidstudioworkspace/ASsdk/build-tools/23.0.2
+2018-04-02 04:32:53:469 - info: [ADB]     E:/androidstudioworkspace/ASsdk/build-tools/23.0.1
+2018-04-02 04:32:53:470 - info: [ADB] Using adb.exe from E:\androidstudioworkspace\ASsdk\platform-tools\adb.exe
+2018-04-02 04:32:53:470 - info: [AndroidDriver] Retrieving device list
+2018-04-02 04:32:53:470 - info: [debug] [ADB] Trying to find a connected android device
+2018-04-02 04:32:53:471 - info: [debug] [ADB] Getting connected devices...
+2018-04-02 04:32:53:592 - info: [debug] [ADB] 1 device(s) connected
+2018-04-02 04:32:53:592 - info: [AndroidDriver] Using device: 127.0.0.1:62001
+2018-04-02 04:32:53:593 - info: [ADB] Checking whether adb is present
+2018-04-02 04:32:53:594 - info: [ADB] Using adb.exe from E:\androidstudioworkspace\ASsdk\platform-tools\adb.exe
+2018-04-02 04:32:53:594 - info: [debug] [ADB] Setting device id to 127.0.0.1:62001
+2018-04-02 04:32:53:597 - info: [BaseDriver] Using local app 'E:\pycharmProject\appium\appiumProject\app\mukewang.apk'
+2018-04-02 04:32:53:598 - info: [debug] [AndroidDriver] Checking whether app is actually present
+2018-04-02 04:32:53:599 - info: [AndroidDriver] Starting Android session
+2018-04-02 04:32:53:602 - info: [debug] [ADB] Running 'E:\androidstudioworkspace\ASsdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","wait-for-device"]
+2018-04-02 04:32:53:723 - info: [debug] [ADB] Getting connected devices...
+2018-04-02 04:32:53:843 - info: [debug] [ADB] 1 device(s) connected
+2018-04-02 04:32:53:844 - info: [debug] [ADB] Running 'E:\androidstudioworkspace\ASsdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","echo","ping"]
+2018-04-02 04:32:53:969 - info: [debug] [AndroidDriver] Pushing settings apk to device...
+2018-04-02 04:32:53:971 - info: [debug] [ADB] Getting install status for io.appium.settings
+2018-04-02 04:32:53:971 - info: [debug] [ADB] Getting connected devices...
+2018-04-02 04:32:54:081 - info: [debug] [ADB] 1 device(s) connected
+2018-04-02 04:32:54:081 - info: [debug] [ADB] Running 'E:\androidstudioworkspace\ASsdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","pm","list","packages","io.appium.settings"]
+2018-04-02 04:32:54:713 - info: [debug] [ADB] App is installed
+2018-04-02 04:32:54:714 - info: [debug] [ADB] Getting package info for 'io.appium.settings'
+2018-04-02 04:32:54:715 - info: [debug] [ADB] Getting connected devices...
+2018-04-02 04:32:54:839 - info: [debug] [ADB] 1 device(s) connected
+2018-04-02 04:32:54:840 - info: [debug] [ADB] Running 'E:\androidstudioworkspace\ASsdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","dumpsys","package","io.appium.settings"]
+2018-04-02 04:32:54:971 - info: [ADB] Checking whether aapt is present
+2018-04-02 04:32:54:973 - info: [ADB] Using aapt.exe from E:\androidstudioworkspace\ASsdk\build-tools\27.0.1\aapt.exe
+2018-04-02 04:32:55:240 - info: [debug] [ADB] The installed 'io.appium.settings' package does not require upgrade ('2.3.0' >= '2.3.0')
+2018-04-02 04:32:55:241 - info: [debug] [ADB] Getting connected devices...
+2018-04-02 04:32:55:353 - info: [debug] [ADB] 1 device(s) connected
+2018-04-02 04:32:55:353 - info: [debug] [ADB] Running 'E:\androidstudioworkspace\ASsdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","ps"]
+2018-04-02 04:32:55:476 - info: [debug] [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+2018-04-02 04:32:55:477 - info: [debug] [ADB] Getting connected devices...
+2018-04-02 04:32:55:589 - info: [debug] [ADB] 1 device(s) connected
+2018-04-02 04:32:55:590 - info: [debug] [ADB] Running 'E:\androidstudioworkspace\ASsdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","getprop","ro.build.version.sdk"]
+2018-04-02 04:32:55:716 - info: [debug] [ADB] Current device property 'ro.build.version.sdk': 19
+2018-04-02 04:32:55:716 - info: [debug] [ADB] Device API level: 19
+2018-04-02 04:32:55:716 - info: [debug] [ADB] Getting connected devices...
+2018-04-02 04:32:55:835 - info: [debug] [ADB] 1 device(s) connected
+2018-04-02 04:32:55:836 - info: [debug] [ADB] Running 'E:\androidstudioworkspace\ASsdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","settings","put","secure","mock_location","1"]
+2018-04-02 04:32:56:475 - warn: [AndroidDriver] setDeviceLanguageCountry requires language or country.
+2018-04-02 04:32:56:475 - warn: [AndroidDriver] Got language: 'null' and country: 'null'
+2018-04-02 04:32:56:476 - info: [debug] [Logcat] Starting logcat capture
+2018-04-02 04:32:56:601 - info: [debug] [AndroidDriver] Pushing unlock helper app to device...
+2018-04-02 04:32:56:601 - info: [debug] [ADB] Getting install status for io.appium.unlock
+2018-04-02 04:32:56:601 - info: [debug] [ADB] Getting connected devices...
+2018-04-02 04:32:56:737 - info: [debug] [ADB] 1 device(s) connected
+2018-04-02 04:32:56:738 - info: [debug] [ADB] Running 'E:\androidstudioworkspace\ASsdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","pm","list","packages","io.appium.unlock"]
+2018-04-02 04:32:57:400 - info: [debug] [ADB] App is installed
+2018-04-02 04:32:57:400 - info: [debug] [ADB] Getting package info for 'io.appium.unlock'
+2018-04-02 04:32:57:400 - info: [debug] [ADB] Getting connected devices...
+2018-04-02 04:32:57:541 - info: [debug] [ADB] 1 device(s) connected
+2018-04-02 04:32:57:541 - info: [debug] [ADB] Running 'E:\androidstudioworkspace\ASsdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","dumpsys","package","io.appium.unlock"]
+2018-04-02 04:32:57:674 - info: [ADB] Checking whether aapt is present
+2018-04-02 04:32:57:675 - info: [ADB] Using aapt.exe from E:\androidstudioworkspace\ASsdk\build-tools\27.0.1\aapt.exe
+2018-04-02 04:32:57:772 - info: [debug] [ADB] The installed 'io.appium.unlock' package does not require upgrade ('2.0.0' >= '2.0.0')
+2018-04-02 04:32:57:773 - info: [ADB] Getting device platform version
+2018-04-02 04:32:57:773 - info: [debug] [ADB] Getting connected devices...
+2018-04-02 04:32:57:893 - info: [debug] [ADB] 1 device(s) connected
+2018-04-02 04:32:57:893 - info: [debug] [ADB] Running 'E:\androidstudioworkspace\ASsdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","getprop","ro.build.version.release"]
+2018-04-02 04:32:58:024 - info: [debug] [ADB] Current device property 'ro.build.version.release': 4.4.2
+2018-04-02 04:32:58:024 - info: [debug] [ADB] Getting connected devices...
+2018-04-02 04:32:58:138 - info: [debug] [ADB] 1 device(s) connected
+2018-04-02 04:32:58:139 - info: [debug] [ADB] Running 'E:\androidstudioworkspace\ASsdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","wm","size"]
+2018-04-02 04:32:58:776 - info: [debug] [ADB] Getting connected devices...
+2018-04-02 04:32:58:891 - info: [debug] [ADB] 1 device(s) connected
+2018-04-02 04:32:58:892 - info: [debug] [ADB] Running 'E:\androidstudioworkspace\ASsdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","getprop","ro.product.model"]
+2018-04-02 04:32:59:020 - info: [debug] [ADB] Current device property 'ro.product.model': OPPO R11
+2018-04-02 04:32:59:020 - info: [debug] [ADB] Getting connected devices...
+2018-04-02 04:32:59:133 - info: [debug] [ADB] 1 device(s) connected
+2018-04-02 04:32:59:133 - info: [debug] [ADB] Running 'E:\androidstudioworkspace\ASsdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","getprop","ro.product.manufacturer"]
+2018-04-02 04:32:59:269 - info: [debug] [ADB] Current device property 'ro.product.manufacturer': OPPO
+2018-04-02 04:32:59:270 - info: [debug] [AndroidDriver] Parsing package and activity from app manifest
+2018-04-02 04:32:59:274 - info: [ADB] Using the alternative activity name detection method because of: Could not find apkanalyzer.bat in E:\androidstudioworkspace\ASsdk\platform-tools\apkanalyzer.bat,E:\androidstudioworkspace\ASsdk\emulator\apkanalyzer.bat,E:\androidstudioworkspace\ASsdk\tools\apkanalyzer.bat,E:\androidstudioworkspace\ASsdk\tools\bin\apkanalyzer.bat,E:\androidstudioworkspace\ASsdk\build-tools\27.0.1\apkanalyzer.bat,E:\androidstudioworkspace\ASsdk\build-tools\27.0.0\apkanalyzer.bat,E:\androidstudioworkspace\ASsdk\build-tools\26.0.2\apkanalyzer.bat,E:\androidstudioworkspace\ASsdk\build-tools\25.0.0\apkanalyzer.bat,E:\androidstudioworkspace\ASsdk\build-tools\24.0.3\apkanalyzer.bat,E:\androidstudioworkspace\ASsdk\build-tools\24.0.2\apkanalyzer.bat,E:\androidstudioworkspace\ASsdk\build-tools\24.0.1\apkanalyzer.bat,E:\androidstudioworkspace\ASsdk\build-tools\24.0.0\apkanalyzer.bat,E:\androidstudioworkspace\ASsdk\build-tools\23.0.3\apkanalyzer.bat,E:\androidstudioworkspace\ASsdk\build-tools\23.0.2\apkanalyzer.bat,E:\androidstudioworkspace\ASsdk\build-tools\23.0.1\apkanalyzer.bat. Do you have the Android SDK installed at 'E:\androidstudioworkspace\ASsdk'?
+2018-04-02 04:32:59:274 - info: [ADB] Checking whether aapt is present
+2018-04-02 04:32:59:276 - info: [ADB] Using aapt.exe from E:\androidstudioworkspace\ASsdk\build-tools\27.0.1\aapt.exe
+2018-04-02 04:32:59:276 - info: [ADB] Extracting package and launch activity from manifest
+2018-04-02 04:32:59:368 - info: [ADB] Package name: 'cn.com.open.mooc'
+2018-04-02 04:32:59:369 - info: [ADB] Main activity name: 'cn.com.open.mooc.index.splash.MCSplashActivity'
+2018-04-02 04:32:59:369 - info: [debug] [AndroidDriver] Parsed package and activity are: cn.com.open.mooc/cn.com.open.mooc.index.splash.MCSplashActivity
+2018-04-02 04:32:59:369 - info: [debug] [ADB] Getting install status for cn.com.open.mooc
+2018-04-02 04:32:59:370 - info: [debug] [ADB] Getting connected devices...
+2018-04-02 04:32:59:483 - info: [debug] [ADB] 1 device(s) connected
+2018-04-02 04:32:59:483 - info: [debug] [ADB] Running 'E:\androidstudioworkspace\ASsdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","pm","list","packages","cn.com.open.mooc"]
+2018-04-02 04:33:00:113 - info: [debug] [ADB] App is installed
+2018-04-02 04:33:00:113 - info: [debug] [ADB] Getting package info for 'cn.com.open.mooc'
+2018-04-02 04:33:00:113 - info: [debug] [ADB] Getting connected devices...
+2018-04-02 04:33:00:227 - info: [debug] [ADB] 1 device(s) connected
+2018-04-02 04:33:00:227 - info: [debug] [ADB] Running 'E:\androidstudioworkspace\ASsdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","dumpsys","package","cn.com.open.mooc"]
+2018-04-02 04:33:00:358 - info: [ADB] Checking whether aapt is present
+2018-04-02 04:33:00:359 - info: [ADB] Using aapt.exe from E:\androidstudioworkspace\ASsdk\build-tools\27.0.1\aapt.exe
+2018-04-02 04:33:00:450 - info: [debug] [ADB] The installed 'cn.com.open.mooc' package does not require upgrade ('5.1.2' >= '5.1.2')
+2018-04-02 04:33:00:450 - info: [AndroidDriver] Performing fast reset on 'cn.com.open.mooc'
+2018-04-02 04:33:00:451 - info: [debug] [ADB] Getting install status for cn.com.open.mooc
+2018-04-02 04:33:00:451 - info: [debug] [ADB] Getting connected devices...
+2018-04-02 04:33:00:565 - info: [debug] [ADB] 1 device(s) connected
+2018-04-02 04:33:00:565 - info: [debug] [ADB] Running 'E:\androidstudioworkspace\ASsdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","pm","list","packages","cn.com.open.mooc"]
+2018-04-02 04:33:01:185 - info: [debug] [ADB] App is installed
+2018-04-02 04:33:01:186 - info: [debug] [ADB] Getting connected devices...
+2018-04-02 04:33:01:307 - info: [debug] [ADB] 1 device(s) connected
+2018-04-02 04:33:01:307 - info: [debug] [ADB] Running 'E:\androidstudioworkspace\ASsdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","am","force-stop","cn.com.open.mooc"]
+2018-04-02 04:33:01:940 - info: [debug] [ADB] Getting connected devices...
+2018-04-02 04:33:02:051 - info: [debug] [ADB] 1 device(s) connected
+2018-04-02 04:33:02:052 - info: [debug] [ADB] Running 'E:\androidstudioworkspace\ASsdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","pm","clear","cn.com.open.mooc"]
+2018-04-02 04:33:02:689 - info: [debug] [AndroidDriver] Performed fast reset on the installed 'cn.com.open.mooc' application (stop and clear)
+2018-04-02 04:33:02:690 - info: [debug] [AndroidDriver] Extracting strings from apk
+2018-04-02 04:33:02:690 - info: [debug] [AndroidDriver] E:\pycharmProject\appium\appiumProject\app\mukewang.apk
+2018-04-02 04:33:02:690 - info: [debug] [AndroidDriver] null
+2018-04-02 04:33:02:690 - info: [debug] [AndroidDriver] C:\Users\xiaoke\AppData\Local\Temp\cn.com.open.mooc
+2018-04-02 04:33:02:691 - info: [debug] [ADB] Extracting strings for language: default
+2018-04-02 04:33:02:691 - info: [ADB] Checking whether aapt is present
+2018-04-02 04:33:02:693 - info: [ADB] Using aapt.exe from E:\androidstudioworkspace\ASsdk\build-tools\27.0.1\aapt.exe
+2018-04-02 04:33:02:937 - info: [ADB] Successfully extracted 926 strings from 'E:\pycharmProject\appium\appiumProject\app\mukewang.apk' resources for '(default)' configuration
+2018-04-02 04:33:02:951 - info: [debug] [ADB] Running 'E:\androidstudioworkspace\ASsdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","push","C:\\Users\\xiaoke\\AppData\\Local\\Temp\\cn.com.open.mooc\\strings.json","/data/local/tmp"]
+2018-04-02 04:33:03:101 - info: [debug] [AndroidBootstrap] Watching for bootstrap disconnect
+2018-04-02 04:33:03:102 - info: [debug] [ADB] Forwarding system: 4907 to device: 4724
+2018-04-02 04:33:03:102 - info: [debug] [ADB] Running 'E:\androidstudioworkspace\ASsdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","forward","tcp:4907","tcp:4724"]
+2018-04-02 04:33:03:193 - info: [debug] [UiAutomator] Starting UiAutomator
+2018-04-02 04:33:03:194 - info: [debug] [UiAutomator] Moving to state 'starting'
+2018-04-02 04:33:03:194 - info: [debug] [UiAutomator] Parsing uiautomator jar
+2018-04-02 04:33:03:194 - info: [debug] [UiAutomator] Found jar name: 'AppiumBootstrap.jar'
+2018-04-02 04:33:03:195 - info: [debug] [ADB] Running 'E:\androidstudioworkspace\ASsdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","push","C:\\Users\\xiaoke\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\_appium-android-bootstrap@2.10.1@appium-android-bootstrap\\bootstrap\\bin\\AppiumBootstrap.jar","/data/local/tmp/"]
+2018-04-02 04:33:03:349 - info: [debug] [ADB] Attempting to kill all uiautomator processes
+2018-04-02 04:33:03:350 - info: [debug] [ADB] Getting all processes with uiautomator
+2018-04-02 04:33:03:350 - info: [debug] [ADB] Getting connected devices...
+2018-04-02 04:33:03:464 - info: [debug] [ADB] 1 device(s) connected
+2018-04-02 04:33:03:464 - info: [debug] [ADB] Running 'E:\androidstudioworkspace\ASsdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","ps"]
+2018-04-02 04:33:03:597 - info: [ADB] No uiautomator process found to kill, continuing...
+2018-04-02 04:33:03:598 - info: [debug] [UiAutomator] Starting UIAutomator
+2018-04-02 04:33:03:598 - info: [debug] [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","127.0.0.1:62001","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","cn.com.open.mooc","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+2018-04-02 04:33:04:056 - info: [debug] [UiAutomator] Moving to state 'online'
+2018-04-02 04:33:04:060 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] json loading complete.
+2018-04-02 04:33:04:060 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+2018-04-02 04:33:04:064 - info: [AndroidBootstrap] Android bootstrap socket is now connected
+2018-04-02 04:33:04:065 - info: [debug] [ADB] Getting connected devices...
+2018-04-02 04:33:04:160 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+2018-04-02 04:33:04:183 - info: [debug] [ADB] 1 device(s) connected
+2018-04-02 04:33:04:183 - info: [debug] [ADB] Running 'E:\androidstudioworkspace\ASsdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","dumpsys","window"]
+2018-04-02 04:33:04:332 - info: [AndroidDriver] Screen already unlocked, doing nothing
+2018-04-02 04:33:04:333 - info: [debug] [ADB] Device API level: 19
+2018-04-02 04:33:04:333 - info: [debug] [ADB] Getting connected devices...
+2018-04-02 04:33:04:448 - info: [debug] [ADB] 1 device(s) connected
+2018-04-02 04:33:04:448 - info: [debug] [ADB] Running 'E:\androidstudioworkspace\ASsdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","am","start","-W","-n","cn.com.open.mooc/cn.com.open.mooc.index.splash.MCSplashActivity","-S","-a","android.intent.action.MAIN","-c","android.intent.category.LAUNCHER","-f","0x10200000"]
+2018-04-02 04:33:05:729 - info: [debug] [ADB] Waiting up to 20000ms for activity matching pkg: 'cn.com.open.mooc' and activity: 'cn.com.open.mooc.index.splash.MCSplashActivity' to be focused
+2018-04-02 04:33:05:730 - info: [debug] [ADB] Possible activities, to be checked: 'cn.com.open.mooc.index.splash.MCSplashActivity', 'cn.com.open.mooc.cn.com.open.mooc.index.splash.MCSplashActivity'
+2018-04-02 04:33:05:732 - info: [debug] [ADB] Getting focused package and activity
+2018-04-02 04:33:05:732 - info: [debug] [ADB] Getting connected devices...
+2018-04-02 04:33:05:862 - info: [debug] [ADB] 1 device(s) connected
+2018-04-02 04:33:05:862 - info: [debug] [ADB] Running 'E:\androidstudioworkspace\ASsdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","dumpsys","window","windows"]
+2018-04-02 04:33:06:020 - info: [debug] [ADB] Found package: 'cn.com.open.mooc' and fully qualified activity name : 'cn.com.open.mooc.index.splash.MCSplashActivity'
+2018-04-02 04:33:06:021 - info: [Appium] New AndroidDriver session created successfully, session e88c1428-d4ac-4f36-8dcc-39ac63cf0e04 added to master session list
+2018-04-02 04:33:06:022 - info: [debug] [BaseDriver] Event 'newSessionStarted' logged at 1522643586021 (12:33:06 GMT+0800 (中国标准时间))
+2018-04-02 04:33:06:023 - info: [debug] [MJSONWP] Responding to client with driver.createSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"noReset":false,"deviceName":"127.0.0.1:62001","app":"E:\\pycharmProject\\appium\\appiumProject\\app\\mukewang.apk","platformName":"Android","udid":"127.0.0.1:62001"},"noReset":false,"deviceName":"127.0.0.1:62001","app":"E:\\pycharmProject\\appium\\appiumProject\\app\\mukewang.apk","platformName":"Android","udid":"127.0.0.1:62001","deviceUDID":"127.0.0.1:62001","platformVersion":"4.4.2","deviceScreenSize":"720x1280","deviceModel":"OPPO R11","deviceManufacturer":"OPPO","appPackage":"cn.com.open.mooc","appWaitPackage":"cn.com.open.mooc","appActivity":"cn.com.open.mooc.index.splash.MCSplashActivity","appWaitActivity":"cn.com.open.mooc.index.splash.MCSplashActivity"}
+2018-04-02 04:33:06:028 - info: [HTTP] <-- POST /wd/hub/session 200 12728 ms - 949
+2018-04-02 04:33:06:028 - info: [HTTP] 
+2018-04-02 04:33:15:032 - info: [HTTP] --> POST /wd/hub/session/e88c1428-d4ac-4f36-8dcc-39ac63cf0e04/element
+2018-04-02 04:33:15:032 - info: [HTTP] {"sessionId":"e88c1428-d4ac-4f36-8dcc-39ac63cf0e04","value":"cn.com.open.mooc:id/account_edit1","using":"id"}
+2018-04-02 04:33:15:033 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["id","cn.com.open.mooc:id/account_edit1","e88c1428-d4ac-4f36-8dcc-39ac63cf0e04"]
+2018-04-02 04:33:15:034 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-04-02 04:33:15:035 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-04-02 04:33:15:035 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2018-04-02 04:33:15:037 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"cn.com.open.mooc:id/account_edit1","context":"","multiple":false}}
+2018-04-02 04:33:15:045 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"cn.com.open.mooc:id/account_edit1","context":"","multiple":false}}
+2018-04-02 04:33:15:045 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-04-02 04:33:15:045 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-04-02 04:33:15:046 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'cn.com.open.mooc:id/account_edit1' using 'ID' with the contextId: '' multiple: false
+2018-04-02 04:33:15:046 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=cn.com.open.mooc:id/account_edit1]
+2018-04-02 04:33:15:054 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-04-02 04:33:15:055 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'cn.com.open.mooc:id/account_edit1' using 'ID' with the contextId: '' multiple: false
+2018-04-02 04:33:15:055 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=cn.com.open.mooc:id/account_edit1]
+2018-04-02 04:33:15:070 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"value":"No element found","status":7}
+2018-04-02 04:33:15:071 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-04-02 04:33:15:072 - info: [debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2018-04-02 04:33:15:091 - info: [HTTP] <-- POST /wd/hub/session/e88c1428-d4ac-4f36-8dcc-39ac63cf0e04/element 500 58 ms - 164
+2018-04-02 04:33:15:091 - info: [HTTP] 
+2018-04-02 04:33:15:096 - info: [HTTP] --> GET /wd/hub/session/e88c1428-d4ac-4f36-8dcc-39ac63cf0e04/screenshot
+2018-04-02 04:33:15:096 - info: [HTTP] {}
+2018-04-02 04:33:15:096 - info: [debug] [MJSONWP] Calling AppiumDriver.getScreenshot() with args: ["e88c1428-d4ac-4f36-8dcc-39ac63cf0e04"]
+2018-04-02 04:33:15:097 - info: [debug] [ADB] Device API level: 19
+2018-04-02 04:33:15:098 - info: [debug] [ADB] Getting connected devices...
+2018-04-02 04:33:15:212 - info: [debug] [ADB] 1 device(s) connected
+2018-04-02 04:33:15:213 - info: [debug] [ADB] Running 'E:\androidstudioworkspace\ASsdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","/system/bin/rm","/data/local/tmp/screenshot.png;","/system/bin/screencap","-p","/data/local/tmp/screenshot.png"]
+2018-04-02 04:33:15:730 - info: [debug] [ADB] Getting connected devices...
+2018-04-02 04:33:15:838 - info: [debug] [ADB] 1 device(s) connected
+2018-04-02 04:33:15:838 - info: [debug] [ADB] Running 'E:\androidstudioworkspace\ASsdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","ls","-la","/data/local/tmp/screenshot.png"]
+2018-04-02 04:33:15:986 - info: [debug] [ADB] Running 'E:\androidstudioworkspace\ASsdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","pull","/data/local/tmp/screenshot.png","C:\\Users\\xiaoke\\AppData\\Local\\Temp\\appium11832-18192-6aq0is.b5mko.png"]
+2018-04-02 04:33:16:592 - info: [debug] [ADB] Getting connected devices...
+2018-04-02 04:33:16:712 - info: [debug] [ADB] 1 device(s) connected
+2018-04-02 04:33:16:712 - info: [debug] [ADB] Running 'E:\androidstudioworkspace\ASsdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","dumpsys","input"]
+2018-04-02 04:33:17:111 - info: [debug] [MJSONWP] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAAAtAAAAUACAYAAABuzmU9AACAAElEQVR4AezBC5zndUHv/9fr851l1VmQhRURXFzACyD3S1xUxLYA5SIhIYSpKKbZOW5h1F+tNE3+/e0cy7+d1A6lZoWnrLRHFxWw4pKKiiargBKYeGOBZeUil53f533m+5v9zc4MA8wuLCZ9nk8PPvy40DRN0zRN0zTNghSapmmapmmaplmwQtM0TdM0TdM0C1ZomqZpmqZpmmbBCk3TNE3TNE3TLFihaZqmaZqmaZoFG+MR0nUdSaXW0DRN0zRN0yzMXns+ja9e9XU2xfLlO7Fsu6XM5+a1t3LDDd+h2XxjPAJKkfHxx7F+/XruuutumqZpmqZp/jPaZuslPPGJy1i6dFse99jHkMBdd9/N2rXruPHGm7j9jjt5JD1zr6fz9Kftxlev+jqbYtl2S1mxYjn354YbvkOz+cbYwlSe9tTdOOsVp/Ptb3+PP/7Ah7n9jjtJQtM0TdM0zQ/TU3Z5Ms864mAOPnBf9tjjqTxh2XY8kDVrbuaqa67l8s99iX/99Bf41re/y5ayz9578NTdV7AQy5fvxLLtljKy/fZLuT/bb7+UA/Z7JiM3r72VG274Ds3CjbEFlSKLFy/mlJNfwBGHHci9965n9Vev4cKLLqFpmqZpmuaHYfHirTj+BSt54QnHsOceT2VT7LDDMnbYYRnPfc5h9K5cfTV/+3cX8A//+CnuXb+eh8t+++7FbrvuwkIt224pK1YsZyG23noJW2+9hJluuOE7NAs3xhaiUmt46u4rOOrIw1m0aBFjY4v4qROP4YorrmTd92+j1krTNE3TNM0jYdGiMU495Xhe+pJT2G7ptjwc9tl7D/bZew9e/aoz+KP3/x/+5mMfZzAY8FAcsN8zWbFiOT9qxsbGmJiYYFOMjY0xMTHB5th2223Y4+m7s2TrJfzgB3dx9TXXsnbtOh7Itttuwx5P350lWy/hBz+4i6uvuZa1a9exqcbYgh73uMfymle9...
+2018-04-02 04:33:17:118 - info: [HTTP] <-- GET /wd/hub/session/e88c1428-d4ac-4f36-8dcc-39ac63cf0e04/screenshot 200 2019 ms - 460674
+2018-04-02 04:33:17:118 - info: [HTTP] 
+2018-04-02 04:33:18:127 - info: [HTTP] --> GET /wd/hub/session/e88c1428-d4ac-4f36-8dcc-39ac63cf0e04/screenshot
+2018-04-02 04:33:18:127 - info: [HTTP] {}
+2018-04-02 04:33:18:128 - info: [debug] [MJSONWP] Calling AppiumDriver.getScreenshot() with args: ["e88c1428-d4ac-4f36-8dcc-39ac63cf0e04"]
+2018-04-02 04:33:18:128 - info: [debug] [ADB] Device API level: 19
+2018-04-02 04:33:18:130 - info: [debug] [ADB] Getting connected devices...
+2018-04-02 04:33:18:252 - info: [debug] [ADB] 1 device(s) connected
+2018-04-02 04:33:18:252 - info: [debug] [ADB] Running 'E:\androidstudioworkspace\ASsdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","/system/bin/rm","/data/local/tmp/screenshot.png;","/system/bin/screencap","-p","/data/local/tmp/screenshot.png"]
+2018-04-02 04:33:18:772 - info: [debug] [ADB] Getting connected devices...
+2018-04-02 04:33:18:884 - info: [debug] [ADB] 1 device(s) connected
+2018-04-02 04:33:18:885 - info: [debug] [ADB] Running 'E:\androidstudioworkspace\ASsdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","ls","-la","/data/local/tmp/screenshot.png"]
+2018-04-02 04:33:19:027 - info: [debug] [ADB] Running 'E:\androidstudioworkspace\ASsdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","pull","/data/local/tmp/screenshot.png","C:\\Users\\xiaoke\\AppData\\Local\\Temp\\appium11832-18192-p8zu2t.ehcy.png"]
+2018-04-02 04:33:19:620 - info: [debug] [ADB] Getting connected devices...
+2018-04-02 04:33:19:733 - info: [debug] [ADB] 1 device(s) connected
+2018-04-02 04:33:19:733 - info: [debug] [ADB] Running 'E:\androidstudioworkspace\ASsdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","dumpsys","input"]
+2018-04-02 04:33:20:054 - info: [debug] [MJSONWP] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAAAtAAAAUACAYAAABuzmU9AACAAElEQVR4AezBC5zndUHv/9fr851l1VmQhRURXFzACyD3S1xUxLYA5SIhIYSpKKbZOW5h1F+tNE3+/e0cy7+d1A6lZoWnrLRHFxWw4pKKiiargBKYeGOBZeUil53f533m+5v9zc4MA8wuLCZ9nk8PPvy40DRN0zRN0zTNghSapmmapmmaplmwQtM0TdM0TdM0C1ZomqZpmqZpmmbBCk3TNE3TNE3TLFihaZqmaZqmaZoFG+MR0nUdSaXW0DRN0zRN0yzMXns+ja9e9XU2xfLlO7Fsu6XM5+a1t3LDDd+h2XxjPAJKkfHxx7F+/XruuutumqZpmqZp/jPaZuslPPGJy1i6dFse99jHkMBdd9/N2rXruPHGm7j9jjt5JD1zr6fz9Kftxlev+jqbYtl2S1mxYjn354YbvkOz+cbYwlSe9tTdOOsVp/Ptb3+PP/7Ah7n9jjtJQtM0TdM0zQ/TU3Z5Ms864mAOPnBf9tjjqTxh2XY8kDVrbuaqa67l8s99iX/99Bf41re/y5ayz9578NTdV7AQy5fvxLLtljKy/fZLuT/bb7+UA/Z7JiM3r72VG274Ds3CjbEFlSKLFy/mlJNfwBGHHci9965n9Vev4cKLLqFpmqZpmuaHYfHirTj+BSt54QnHsOceT2VT7LDDMnbYYRnPfc5h9K5cfTV/+3cX8A//+CnuXb+eh8t+++7FbrvuwkIt224pK1YsZyG23noJW2+9hJluuOE7NAs3xhaiUmt46u4rOOrIw1m0aBFjY4v4qROP4YorrmTd92+j1krTNE3TNM0jYdGiMU495Xhe+pJT2G7ptjwc9tl7D/bZew9e/aoz+KP3/x/+5mMfZzAY8FAcsN8zWbFiOT9qxsbGmJiYYFOMjY0xMTHB5th2223Y4+m7s2TrJfzgB3dx9TXXsnbtOh7Itttuwx5P350lWy/hBz+4i6uvuZa1a9exqcbYgh73uMfymle9...
+2018-04-02 04:33:20:065 - info: [HTTP] <-- GET /wd/hub/session/e88c1428-d4ac-4f36-8dcc-39ac63cf0e04/screenshot 200 1932 ms - 460674
+2018-04-02 04:33:20:065 - info: [HTTP] 
+2018-04-02 04:34:20:055 - warn: [BaseDriver] Shutting down because we waited 60 seconds for a command
+2018-04-02 04:34:20:058 - info: [debug] [AndroidDriver] Shutting down Android driver
+2018-04-02 04:34:20:058 - warn: [Appium] Closing session, cause was 'New Command Timeout of 60 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+2018-04-02 04:34:20:058 - info: [Appium] Removing session e88c1428-d4ac-4f36-8dcc-39ac63cf0e04 from our master session list
+2018-04-02 04:34:20:059 - info: [debug] [ADB] Getting connected devices...
+2018-04-02 04:34:20:164 - info: [debug] [ADB] 1 device(s) connected
+2018-04-02 04:34:20:164 - info: [debug] [ADB] Running 'E:\androidstudioworkspace\ASsdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","am","force-stop","cn.com.open.mooc"]
+2018-04-02 04:34:20:792 - info: [debug] [ADB] Pressing the HOME button
+2018-04-02 04:34:20:793 - info: [debug] [ADB] Getting connected devices...
+2018-04-02 04:34:20:917 - info: [debug] [ADB] 1 device(s) connected
+2018-04-02 04:34:20:917 - info: [debug] [ADB] Running 'E:\androidstudioworkspace\ASsdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","input","keyevent",3]
+2018-04-02 04:34:21:551 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"shutdown"}
+2018-04-02 04:34:21:559 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"shutdown"}
+2018-04-02 04:34:21:559 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type SHUTDOWN
+2018-04-02 04:34:21:559 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"value":"OK, shutting down","status":0}
+2018-04-02 04:34:21:559 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Closed client connection
+2018-04-02 04:34:21:559 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: numtests=1
+2018-04-02 04:34:21:560 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: stream=.
+2018-04-02 04:34:21:560 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+2018-04-02 04:34:21:560 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: test=testRunServer
+2018-04-02 04:34:21:560 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: class=io.appium.android.bootstrap.Bootstrap
+2018-04-02 04:34:21:560 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: current=1
+2018-04-02 04:34:21:560 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS_CODE: 0
+2018-04-02 04:34:21:561 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: stream=
+2018-04-02 04:34:21:561 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] Test results for WatcherResultPrinter=.
+2018-04-02 04:34:21:561 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] Time: 77.526
+2018-04-02 04:34:21:561 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] OK (1 test)
+2018-04-02 04:34:21:562 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS_CODE: -1
+2018-04-02 04:34:21:562 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-04-02 04:34:21:563 - info: [debug] [UiAutomator] Shutting down UiAutomator
+2018-04-02 04:34:21:563 - info: [debug] [UiAutomator] Moving to state 'stopping'
+2018-04-02 04:34:21:570 - info: [debug] [UiAutomator] UiAutomator shut down normally
+2018-04-02 04:34:21:570 - info: [debug] [UiAutomator] Moving to state 'stopped'
+2018-04-02 04:34:21:570 - info: [debug] [ADB] Attempting to kill all uiautomator processes
+2018-04-02 04:34:21:571 - info: [debug] [ADB] Getting all processes with uiautomator
+2018-04-02 04:34:21:571 - info: [debug] [ADB] Getting connected devices...
+2018-04-02 04:34:21:696 - info: [debug] [ADB] 1 device(s) connected
+2018-04-02 04:34:21:697 - info: [debug] [ADB] Running 'E:\androidstudioworkspace\ASsdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","ps"]
+2018-04-02 04:34:21:853 - info: [ADB] No uiautomator process found to kill, continuing...
+2018-04-02 04:34:21:853 - info: [debug] [UiAutomator] Moving to state 'stopped'
+2018-04-02 04:34:21:854 - info: [debug] [Logcat] Stopping logcat capture
+2018-04-02 04:34:21:859 - info: [debug] [ADB] Getting connected devices...
+2018-04-02 04:34:21:976 - info: [debug] [ADB] 1 device(s) connected
+2018-04-02 04:34:21:976 - info: [debug] [ADB] Running 'E:\androidstudioworkspace\ASsdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","am","force-stop","io.appium.unlock"]
+2018-04-02 04:34:22:682 - info: [debug] [AndroidDriver] Not cleaning generated files. Add `clearSystemFiles` capability if wanted.
