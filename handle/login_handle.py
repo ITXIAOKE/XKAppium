@@ -35,7 +35,7 @@ class LoginHandle:
         self.login_page.get_register_element()
 
     def get_fail_tost(self, message):
-        '''获取tost，判断是否获取到toast,如果获取到返回True，如果没有获取到返回False'''
+        '''获取toast，判断是否获取到toast,如果获取到返回True，如果没有获取到返回False'''
         tost_element = self.login_page.get_tost_element(message)
         if tost_element:
             return True
